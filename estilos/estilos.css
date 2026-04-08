@@ -56,3 +56,28 @@ section#redes-sociais img:hover{
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
 }
+
+iframe#tela{
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    opacity: 1;
+}
+
+iframe#tela.fade-out{
+    opacity: 0.2;
+    transform: scale(0.98);
+}
+
+@keyframes iframeFadeIn {
+    from {
+        opacity: 0.15;
+        transform: scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+iframe#tela.fade-in {
+    animation: iframeFadeIn 0.35s ease forwards;
+}
