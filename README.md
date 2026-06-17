@@ -13,12 +13,6 @@ Um projeto front-end interativo desenvolvido com **HTML5** e **CSS3** focado em 
 
 ---
 
-## 🔗 Veja o Projeto Funcionando:
-
-Graças ao GitHub Pages, você pode interagir com o mockup em tempo real:
-👉 [Ver Projeto das Redes Sociais Online](https://gladston-dev-01.github.io/Gladston-rep/projeto-social/)
-
----
 
 ## 🚀 Como essa técnica se aplica no mercado?
 
